@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-image: url('../static/tool-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header {
+    color: hotpink;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+  }
+  .section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    color: white;
+  }
+  h1, h2{
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  p, pre, code {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .social-icons {
+    margin-top: 300px;
+    font-size: 30px;
+    padding-left: 750px;
+  }
+  .social-icons a {
+    color: #007bff;
+    margin-right: 15px;
+    transition: color 0.3s;
+  }
+  .social-icons a:hover {
+    color: red;
+  }

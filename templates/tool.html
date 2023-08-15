@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/tool.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Image Magician</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <div class="img-container">
+        <h1>Image Magician</h1>
+        {% if uploaded_image_path %}
+        <div class="image-container">
+            <div class="image-column">
+                <h2>Original Image:</h2>
+                <img id="original-image" src="{{ uploaded_image_path }}" alt="Original Image">
+            </div>
+            <div class="image-column">
+                <h2>Processed Image:</h2>
+                <img id="processed-image" src="{{ processed_image_path }}" alt="Processed Image">
+            </div>
+        </div>
+        {% endif %}
+        
+    </div>
+    <!-- ... your existing HTML ... -->
+    <div class="center-button">
+        <a href="/" class="btn btn-primary mt-3">Return to Home Page</a>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Container styles */
+body {
+  background-image: url('../static/tool-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  
+  margin: 0;
+  padding: 0;
+}
+/* Container styles */
+.img-container {
+  transform: translateY(50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin-top: 80px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e56af8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.img-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+/* Add styles for the image display */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px; /* Adjust the margin-top value */
+}
+
+.image-column {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.image-column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Adjust image size to fit the box */
+.img-container img {
+  max-width: 100%;
+  max-height: 300px;
+}
+.center-button {
+  text-align: center;
+  margin-top: 60px; /* Adjust the margin as needed */
+}
+
+
+.btn-primary {
+  border: none;
+  font-weight: bolder;
+  background-color: purple;
+  transition: opacity 0.3s;
+  box-shadow: 10px 10px rebeccapurple;
+  display: block; 
+  margin: 0 auto; 
+  width: fit-content;
+  padding: 10px 20px; 
+}
+
+
+.btn-primary:hover{
+    color: aquamarine;
+    opacity: 0.7;
+    box-shadow: none;
+
+}
