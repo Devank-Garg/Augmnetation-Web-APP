@@ -4,15 +4,16 @@ Image Magician is a simple web application built with Flask that allows you to u
 ## Features
 + Upload an image for processing.
 + View the original image and its processed grayscale version side by side.
-+ Easily navigate back to the home page.
+
+
 
  ## Getting Started
  1. Clone the repo:
- git clone https://github.com/your-username/image-magician.git
-2. Install the required packages:
- pip install Flask opencv-python
-3. Run the Flask app:
-python app.py
-4. Open your web browser and navigate to http://localhost:5000 to use the Image Magician app.
+    ```git clone https://github.com/your-username/image-magician.git```
+3. Install the required packages:
+ ```python pip install Flask opencv-python```
+4. Run the Flask app:
+```python python app.py```
+5. Open your web browser and navigate to http://localhost:5000 to use the Image Magician app.
 
 
