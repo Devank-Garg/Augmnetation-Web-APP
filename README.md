@@ -9,13 +9,13 @@ Image Magician is a simple web application built with Flask that allows you to u
 
  ## Getting Started
  1. Clone the repo:
-    ```
+ ```
     git clone https://github.com/your-username/image-magician.git
-    ```
+```
 3. Install the required packages:
-    ```python
-    pip install Flask opencv-python
-    ```
+```python
+ pip install Flask opencv-python
+```
 5. Run the Flask app:
   ```
 python app.py
